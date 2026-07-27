@@ -1,0 +1,19 @@
+generated: '2026-07-19'
+method: probed
+source: live probes of https://www.gigacloudtech.com/.well-known/*
+host: https://www.gigacloudtech.com
+note: >-
+  Host is behind bot protection and returned 403 for every probe; no
+  well-known discovery document was retrievable. No raw files saved and no
+  WellKnown scoring pointer wired (nothing was found).
+documents:
+- path: /.well-known/security.txt
+  status: 403
+- path: /.well-known/openid-configuration
+  status: 403
+- path: /.well-known/oauth-authorization-server
+  status: 403
+- path: /.well-known/api-catalog
+  status: 403
+- path: /.well-known/ai-plugin.json
+  status: 403

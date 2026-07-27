@@ -1,8 +1,29 @@
 aid: gigacloud-technology
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gigacloud-technology.png
 name: GigaCloud Technology
-description: 'GigaCloud Technology is a company surfaced as a portfolio company of dcm-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  GigaCloud Technology (NASDAQ: GCT) operates the GigaCloud Marketplace, a
+  global B2B e-commerce platform for large-parcel merchandise such as furniture,
+  home furnishings, fitness equipment, and appliances. The marketplace connects
+  manufacturers, primarily in Asia, with resellers across the United States,
+  Europe, and Japan, integrating product discovery, transactions, and end-to-end
+  cross-border logistics including ocean freight, warehousing, and last-mile
+  delivery. The company was added to the API Evangelist network as a
+  dcm-ventures portfolio lead. Enrichment probes found no public developer
+  portal, API documentation, or well-known discovery surface; the corporate site
+  is behind bot protection (HTTP 403), so this profile is limited to verified
+  domain-security posture and company identity.
 url: https://raw.githubusercontent.com/api-evangelist/gigacloud-technology/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Enterprise
+- E-Commerce
+- Marketplace
+- B2B
+- Logistics
+- Supply Chain
+- Cross-Border
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +50,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/gigacloud-technology-domain-security.yml
 - type: Website
   url: https://www.gigacloudtech.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
